@@ -1,0 +1,50 @@
+.wraper:nth-child(1) .product {
+    background: grey;
+   
+    background-image: url('../images/zaborImages/zaborRyabitsa.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .wraper:nth-child(2) .product{
+    background: grey;
+    
+    background-image: url('../images/zaborImages/zabor3D.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .wraper:nth-child(3) .product {
+    background: grey;
+    
+    background-image: url('../images/zaborImages/zaborProfnastil.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .wraper:nth-child(4) .product {
+    background: grey;
+   
+    background-image: url('../images/zaborImages/zaborSHtaketnik.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .wraper:nth-child(5) .product {
+    background: grey;
+    
+    background-image: url('../images/zaborImages/zaborSHtaketnikDouble.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .wraper:nth-child(6) .product {
+    background: grey;
+    
+    background-image: url('../images/zaborImages/zaborSvarnoy.jpg');
+    background-repeat: no-repeat;
+  }
+  
+  .wraper:nth-child(7) .product {
+    background: grey;
+    
+    background-image: url('../images/zaborImages/zaborKovany2.jpg');
+    background-repeat: no-repeat;
+  }
+
+  

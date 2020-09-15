@@ -1,0 +1,42 @@
+.wraper-addit:nth-child(1) .product {
+    background: grey;
+   
+    background-image: url('../images/additionalImages/naves.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .wraper-addit:nth-child(2) .product{
+    background: grey;
+    
+    background-image: url('../images/additionalImages/mangal.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .wraper-addit:nth-child(3) .product {
+    background: grey;
+    
+    background-image: url('../images/additionalImages/vorota-kalitki.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .wraper-addit:nth-child(4) .product {
+    background: grey;
+   
+    background-image: url('../images/additionalImages/branch.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .wraper-addit:nth-child(5):nth-child(5) .product {
+    background: grey;
+    
+    background-image: url('../images/additionalImages/swing.jpg');
+    background-repeat: no-repeat;
+  }
+
+  .wraper-addit:nth-child(6) .product {
+    background: grey;
+    
+    background-image: url('../images/additionalImages/flowerCase.jpg');
+    background-repeat: no-repeat;
+  }
+    

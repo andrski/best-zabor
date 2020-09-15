@@ -1,0 +1,225 @@
+body {
+  background-image: url('../images/zaborBG6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+ 
+nav {
+ position: relative;
+  
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-bottom: 1px solid navy; */
+  
+}
+.div-nav{
+position: absolute;
+bottom: 2px;
+}
+
+h2 {
+  font-family: cursive, fantasy, Geneva, Arial, Helvetica, sans-serif;
+  color: red;
+ } 
+
+.header{
+  position: relative;
+  background:url('../images/zaborBGheader2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 25vh;
+}
+
+.product{
+  border-radius: 30px;
+  }
+
+  .product:hover {
+    -moz-transform: rotate(3deg); /* Для Firefox */
+    -ms-transform: rotate(3deg); /* Для IE */
+    -webkit-transform: rotate(3deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(3deg); /* Для Opera */
+    transform: rotate(3deg);
+   }
+
+ .product-price{
+  font-family: cursive, fantasy;
+  font-size: 35px;
+  color: #0072BB;
+ }
+
+.main{
+  max-width: 650px;
+  margin: 20px auto;
+}
+
+.main-product{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.App {
+  text-align: center;
+}
+
+.Footer{
+  /* max-width: ; */
+  text-align: left;
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Footer div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  opacity: 0.2;
+}
+
+.footer-left{
+  display: block;
+  width: 65%;
+  margin: 2px;
+}
+
+.footer-rigth{
+  display: block;
+  width: 30%;
+  margin: 2px;
+}
+
+.Foot {
+  color: green;
+}
+
+.temp {
+  background: url('../images/weather.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: green;
+  height: 70px;
+  width: 50px;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+
+.cityName{
+  font-size: 10px;
+}
+
+.product {
+  width: 300px;
+  height: 300px;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.calc-info{
+  width: 75%;
+  margin: 10px auto;
+  text-align: justify;
+}
+
+.calc-contact{
+  width: 50%;
+  margin: 10px auto;
+  }
+
+.calc-forms{
+display: flex;
+width: 75%;
+margin: 10px auto;
+}
+
+.calc-forms input,
+.calc-forms select{
+  position: relative;
+  right: 0;
+  width: 150px;
+  padding: 4px;
+  display: inline-block;
+}
+
+.additional-info{
+  width: 75%;
+  margin: 10px auto;
+  text-align: justify;
+}
+
+/* map in contacts */
+.img-zabor{
+height: 541px;
+background-image: url('../images/zaborMap.jpg');
+background-repeat: no-repeat;
+background-position: center;
+}
+
+/* Menu buttons styles */
+.button {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #C9FFE5 0%, #676767 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: .5s;
+  }
+  .button:hover {background-position: right center;}
+
+  /* calkulator button style */
+  input.button4 {
+    position: relative;
+    display: inline-block;
+    font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(245,245,245);
+    text-shadow: 0 -1px rgba(0,0,0,.1);
+    text-decoration: none;
+    user-select: none;
+    padding: .3em 1em;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: #676767 linear-gradient(#82d18d, #BEBEBE);
+    box-shadow: inset #6EAEA1 0 -1px 1px, inset 0 1px 1px #98ff98, #A99A86 0 0 0 1px, rgba(0,0,0,.3) 0 2px 5px;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+  }
+  input.button4:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+  input.button4:active {
+    top: 1px;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;
+    box-shadow: 0 -1px 3px rgba(0,0,0,.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+  }
+  @-webkit-keyframes pulsate {
+    50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+  }
+  @keyframes pulsate {
+    50% {color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff;}
+  }
