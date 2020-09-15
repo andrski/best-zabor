@@ -11,8 +11,14 @@ class Contacts extends React.Component {
 <p>Понедельник-Пятница: 9.00-18.00
     Суббота: 9.00-15.00
 </p>
-<p>Контактные телефоны: +375 (29) 8535432</p>
+<div className="pnoneNumberIcons">
+<p className="contact-number">Контактные телефоны: +375 (29) 8535432</p>
+<div className="contact-icons">
+      <div className="phoneIcon"></div>
+      <div className="viberIcon"></div> 
+</div>
 
+</div>
 <p>E-mail: dissa_plus0707@mail.ru</p>
 <div className="img-zabor">
     

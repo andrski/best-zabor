@@ -5,12 +5,14 @@ class Additional extends React.Component {
         return (
             <div >
                 {/* здесь можно редактировать кроме красного и синяго */}
-                <p className="additional-info">
-                    vfahfbldjagbjalbgadbghSBGHBAGLH
-                    DJASFASHBFHASFBADSHBADSHBVADJVBXHCJBHVB
-                    KHZBCVHASBVASHBV\SVBJHsvbjhSVBshvbdakgfv
-                    jhvcadshvcdahvbdfkavbVBDVBdhvbDKHJVBHDVBK
-                </p>
+                <h4  className="additional-info">
+                    <div className="addit-warning">
+                    Изготовление товаров перечисленых в дополнительных услугах осуществляется по согласованию
+по контактам указанным в разделе контакты, так как фото товаров носят исключительно информационный характер и не являются
+образцами. По телефону вы можете заказать изделие по вашему желанию.
+                    </div>
+                   
+                </h4>
                 <div className="main">
                 <div className="main-product">
                 <section className="wraper-addit">

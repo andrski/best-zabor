@@ -16,7 +16,9 @@ class Calculator extends React.Component {
       }
      
       setZaborKind(event) {
-        this.setState({kind: event.target.value});
+        this.setState({
+          kind: event.target.value,
+        });
       }
     
       handleSubmit(event) {
@@ -26,15 +28,15 @@ class Calculator extends React.Component {
         event.preventDefault();
       }
 
-      setLength = (e)=>{
+      setLength = (event)=>{
         this.setState({
-          length: e.target.value,
+          length: event.target.value,
         });
     }
 
-      setHeigth = (e)=>{
+      setHeigth = (event)=>{
         this.setState({
-          heigth: e.target.value,
+          heigth: event.target.value,
         });
       }
 
@@ -70,6 +72,8 @@ class Calculator extends React.Component {
 Всё это может повлиять на стоимость монтажных работ. Так же вы можете приобрести только материалы на нашем складе по указанному адресу.
   </p>
 
+
+
 </section>
 <div className="calc-forms">
         <form onSubmit={this.handleSubmit}>
@@ -95,7 +99,7 @@ class Calculator extends React.Component {
           {/* <input type="submit" value="Submit" /> */}
         </form>
 
-        <label>
+        <label className="">
           Ведите количество погонных метров: 
           <input type="number" name="length" required={true} min={1}
           placeholder="количество метров"  onChange={this.setLength}/>
@@ -105,10 +109,10 @@ class Calculator extends React.Component {
             <label>
               Выберите высоту забора
               <select value={this.state.value} onChange={this.setHeigth}>
-                <option value={1.0}>1 метр 20 сантиметров</option>
-                <option value={1.2}>1 метр 50 сантиметров</option>
-                <option value={1.35}>1 метр 70 сантиметров</option>
-                <option value={1.41}>1 метр 80 сантиметров</option>
+                <option value={1.0}>1 метр 20 см</option>
+                <option value={1.2}>1 метр 50 см</option>
+                <option value={1.35}>1 метр 70 см</option>
+                <option value={1.41}>1 метр 80 см</option>
                 <option value={1.57}>2 метра</option>
                 </select>
             </label>
@@ -123,7 +127,7 @@ class Calculator extends React.Component {
         {/* <p>{this.state.kind}</p>
         <p>length:  {this.state.length}</p>
         <p>hiegth: {this.state.heigth}</p> */}
-        <h4>Предварительная стоимость:  {this.state.price} руб.</h4>
+        <h3>Предварительная стоимость:  {this.state.price} руб.</h3>
         
         <input onClick={this.setPrise} type="button" className="button4" value="Рассчитать" />
 

@@ -12,7 +12,7 @@ import Additional from './components/additional';
 class App extends React.Component {
 
     state = {
-        pressed: 3,
+        pressed: 1,
     };
 
     pressMain = () => { //USE ONLY!!!! ARrow function
