@@ -99,12 +99,14 @@ class Calculator extends React.Component {
           {/* <input type="submit" value="Submit" /> */}
         </form>
 
-        <label className="">
+        <form>
+          <label className="">
           Ведите количество погонных метров: 
           <input type="number" name="length" required={true} min={1}
           placeholder="количество метров"  onChange={this.setLength}/>
-        </label>
-
+          </label>
+        </form>
+        
         <form onChange={this.setHeigth}>
             <label>
               Выберите высоту забора
